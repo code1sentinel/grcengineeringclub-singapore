@@ -24,6 +24,23 @@ assets/img/banner.png chapter banner, used for social cards
 .nojekyll             serve assets as-is on GitHub Pages
 ```
 
+## Deploying
+
+GitHub Pages serves this repository directly, with no build and no CI. In
+Settings, then Pages, the source is "Deploy from a branch", set to `main` at
+`/ (root)`. Every push to `main` republishes the site within about a minute.
+
+Live at https://code1sentinel.github.io/grcengineeringclub-singapore/
+
+The `.nojekyll` file matters here. Without it Pages runs the content through
+Jekyll, which skips directories it does not recognise and can drop `assets`.
+
+There is deliberately no deploy workflow. An earlier attempt used
+`actions/configure-pages` with enablement turned on, but the Actions token
+cannot create a Pages site that has never existed, so it failed with
+"Resource not accessible by integration" on every run. Serving straight from
+the branch avoids that bootstrap problem entirely.
+
 ## Design tokens
 
 Taken from the Singapore Chapter slide deck, so the site and the deck match.
