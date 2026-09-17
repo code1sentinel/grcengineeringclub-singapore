@@ -2,8 +2,8 @@
 
 Static site for the Singapore Chapter of the GRC Engineering Club.
 
-> A community where every GRC practitioner in Singapore can learn and build,
-> so that controls ship automated, continuous, and evidence-backed.
+> A community where GRC practitioners learn and build, so that they run GRC
+> that is automated, continuous, and verifiable.
 
 ## Running it
 
