@@ -66,8 +66,7 @@ measures 5.9:1. The deck never pairs white with orange, so nothing is lost.
 All copy lives in `index.html` as plain markup.
 
 - **Values** are `li.value` items in the `#values` list.
-- **Meeting topics** are grouped into `article.track` blocks under `#meetings`.
-  Each track has a `.track__head` and a `.topics` list of `li.topic` entries.
+- **What you get** are `li` entries in the `.get` list under `#membership`.
 - **Links** point at `grcengclub.com/chapters/singapore`. Change them there
   once the chapter has its own sign-up destination.
 
